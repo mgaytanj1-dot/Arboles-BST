@@ -16,7 +16,7 @@ Nodo* crearNodo(int valor) {
     return nuevo;
 }
 
-// ======= INSERTAR =======
+
 Nodo* insertar(Nodo* raiz, int valor) {
     if (raiz == NULL) {
         return crearNodo(valor);
@@ -56,7 +56,7 @@ void postOrden(Nodo* raiz) {
     }
 }
 
-// ======= MENU =======
+
 void mostrarMenu() {
     cout << "\n--- MENU ---\n";
     cout << "1. Insertar valor\n";
